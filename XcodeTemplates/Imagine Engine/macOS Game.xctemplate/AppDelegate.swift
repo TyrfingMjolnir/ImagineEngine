@@ -1,10 +1,10 @@
 import AppKit
 import ImagineEngine
 
-@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {
-    var window: UIWindow?
+@UIApplicationMain class AppDelegate: NSResponder, NSApplicationDelegate {
+    var window: NSWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: NSApplication, didFinishLaunchingWithOptions launchOptions: [NSApplicationLaunchOptionsKey: Any]?) -> Bool {
         let scene = ___PACKAGENAME___Scene(size: UIScreen.main.bounds.size)
 
         let window = GameWindow(scene: scene)
