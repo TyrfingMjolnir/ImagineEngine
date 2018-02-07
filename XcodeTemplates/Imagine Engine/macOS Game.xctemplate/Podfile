@@ -1,1 +1,6 @@
-test
+platform :macos, '11.0'
+
+target '___PACKAGENAME___' do
+  use_frameworks!
+  pod 'ImagineEngine'
+end
